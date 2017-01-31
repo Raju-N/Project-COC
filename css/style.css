@@ -1,0 +1,313 @@
+.main_wrapper{
+	background-image: url('../images/coc_bg2.jpg'); 
+	min-height: 680px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* design for box */
+.menu_box figure {
+    float: left;
+    height: 14em;
+    margin: 1.5em;
+    width: 26em;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+.menu_box figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+.menu_box figure img {
+    background-color: #222;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    height: 100%;
+    -webkit-transition: .5s;
+}
+.menu_box figure:hover img {
+    box-shadow: none;
+}
+.menu_box figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+.menu_box figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+.menu_box h3 {
+	font-weight: bold;
+}
+
+/* style for clan visit */
+.tour{
+	text-align: center;
+	background: #4776E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+.clan_visit {
+min-height: 30px;
+padding: 10px 0px 40px 0px;
+background: #67B26F; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #67B26F , #4ca2cd); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #67B26F , #4ca2cd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.clan_visit .button {
+	height: 80px;
+	width: 180px;
+	text-decoration: none;
+    display: block;
+	cursor: pointer;
+	margin: 0 auto;
+	font-family: Impact;
+	box-sizing: content-box;
+}
+.clan_visit .button .outer {
+	position: relative;
+	box-sizing: content-box;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background: rgba(0,0,0,0.65);
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	box-shadow: inset rgba(0,0,0,0.85) 0px 1px 5px;
+	-webkit-box-shadow: inset rgba(0,0,0,0.85) 0px 1px 5px;
+	-moz-box-shadow: inset rgba(0,0,0,0.85) 0px 1px 5px;
+	-webkit-transform: perspective(500px) rotateX(35deg);
+	-moz-transform: perspective(500px) rotateX(35deg);
+}
+.clan_visit .button .outer .height {
+	position: relative;
+	box-sizing: content-box;
+	height: 100%;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	background: #39a02d;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: rgba(0,0,0,0.85) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.85) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.85) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 8px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+}       
+.clan_visit .button:hover .outer .height {
+	margin-top: -10px;
+	padding-bottom: 10px;
+	background: #3aaf2d;
+	box-shadow: rgba(0,0,0,0.25) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 6px;
+	-webkit-box-shadow: rgba(0,0,0,0.25) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 6px;
+	-moz-box-shadow: rgba( 0,0,0,0.25) 0px 1px 1px, inset rgba(0,0,0,0.35) 0px -2px 6px;
+}
+.clan_visit .button:active .outer .height {
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+ .clan_visit .button .outer .height .inner {
+	line-height: 2.8em;
+	box-sizing: content-box;
+	font-size: 30px;
+	letter-spacing: .05em;
+	position: relative;
+	height: 100%;
+	text-align: center;
+	text-shadow: #8aff7b 0px 0px 1px;
+	background: #44d135;
+	background: -moz-linear-gradient(top, #80ec75 0%, #43d034 100%); FF3.6+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#80ec75), color-stop(100%,#43d034)); Chrome,Safari4+
+	background: -webkit-linear-gradient(top, #80ec75 0%,#43d034 100%); Chrome10+,Safari5.1+
+	background: linear-gradient(top, #80ec75 0%,#43d034 100%); W3C
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	box-shadow: inset rgba(255,255,255,0.85) 0px 0px 1px;
+	-webkit-box-shadow: inset rgba(255,255,255,0.85) 0px 0px 1px;
+	-moz-box-shadow: inset rgba(255,255,255,0.85) 0px 0px 1px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+} 
+.clan_visit .button:hover .outer .height .inner{
+	text-shadow: #99f48d 0px 0px 1px;
+	background: #43d034; /* Old browsers */
+	background: -moz-linear-gradient(top, #43d034 0%, #67e45c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#43d034), color-stop(100%,#67e45c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #43d034 0%,#67e45c 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(top, #43d034 0%,#67e45c 100%); /* W3C */
+}
+.clan_visit .button:active .outer .height .inner{
+	text-shadow: #319926 0px 1px 0px;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset rgba(0,0,0,0.9) 0px 0px 8px;
+	-webkit-box-shadow: inset rgba(0,0,0,0.9) 0px 0px 8px;
+	-moz-box-shadow: inset rgba(0,0,0,0.9) 0px 0px 8px;
+	background: #1d7d12; /* Old browsers */
+	background: -moz-linear-gradient(top, #1d7d12 0%, #4fd342 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1d7d12), color-stop(100%,#4fd342)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #1d7d12 0%,#4fd342 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(top, #1d7d12 0%,#4fd342 100%); /* W3C */
+}
+/*Lets start with the cloud formation rather*/
+
+/*The container will also serve as the SKY*/
+
+/* *{ margin: 0; padding: 0;}
+
+body {
+	To hide the horizontal scroller appearing during the animation
+	overflow: hidden;
+}
+
+#clouds{
+	background: transparent;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 100px 0;
+	background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+Time to finalise the cloud shape
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
+.cloud1{
+	background-image: url('../images/c1.png');
+	width: 128px;
+	height: 128px; 
+}
+.cloud2{
+	background-image: url('../images/c2.png');
+	width: 128px;
+	height: 128px; 
+}
+.cloud3{
+	background-image: url('../images/c3.png');
+	width: 128px;
+	height: 128px; 
+}
+.cloud4{
+	background-image: url('../images/c4.png');
+	width: 128px;
+	height: 128px; 
+}
+Time to animate
+.x1 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+variable speed, opacity, and position of clouds for realistic effect
+.x2 {
+	left: 200px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; opacity proportional to the size
+	
+	Speed will also be proportional to the size and opacity
+	More the speed. Less the time in 's' = seconds
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; top: -200px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; opacity proportional to the size
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 470px; top: -250px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; opacity proportional to the size
+	
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -150px; top: -150px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; opacity proportional to the size
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+} */
